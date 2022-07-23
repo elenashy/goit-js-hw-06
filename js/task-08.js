@@ -10,7 +10,7 @@ function onFormSubmit(event) {
     
 
     if (mail === '' || password === '') {
-        alert('Fill all gaps!')
+       return alert('Fill all gaps!')
     }
 
     const formData = {
